@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cam quýt</title>
+</head>
+<body>
+
+</body>
+<script>
+    /*
+    Quýt ngon m?i qu? chia ba
+    Cam ngon m?i qu? chia ra làm mu?i
+    M?i ngu?i m?t mi?ng tram ngu?i
+    Có mu?i b?y qu? không nhi?u d? chia
+     */
+    let soqam, soquyt;
+    for (soCam = 0; soCam <= 17; socam++)
+        for (soquyt = 0; soquyt <= 17; soquyt++)
+            if (socam * 10 + soquyt * 3 == 100 && (socam + soquyt == 17)) {
+                console.log("S? quýt là :" + soquyt);
+                console.log("S? cam là :" + socam);
+            }
+</script>
+</html>
